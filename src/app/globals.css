@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -18,16 +18,37 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  padding: 1rem;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+@layer base {
+  li {
+    @apply 
+    cursor-pointer
+    list-none
+  }
+}
+
+@font-face {
+  font-family: "Rubik-light";
+  src: url("../../public/fonts/Rubik-VariableFont_wght.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Rubik-reg";
+  src: url("../../public/fonts/Rubik-VariableFont_wght.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Rubik-med";
+  src: url("../../public/fonts/Rubik-VariableFont_wght.ttf");
+  font-weight: 500;
 }
