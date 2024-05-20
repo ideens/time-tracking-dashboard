@@ -23,12 +23,11 @@ const config: Config = {
       "rubik-reg": ["Rubik-reg", "sans-serif"],
       "rubik-med": ["Rubik-med", "sans-serif"],
     },
-      screens: {
-        'sm': '200px',
-        'md': '576px',
-        'lg': '1025px',
-      },
-
+    screens: {
+      sm: "200px",
+      md: "576px",
+      lg: "1025px",
+    },
   },
   plugins: [],
 };

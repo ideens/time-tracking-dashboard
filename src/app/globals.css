@@ -27,19 +27,18 @@ body {
   }
 
   .custom-transition {
-    @apply transition-colors duration-200 ease-in-out
+    @apply transition-colors duration-200 ease-in-out;
   }
 
   .grid-cols-custom-3 {
-    grid-template-columns: 'repeat(3, minmax(240px, 255px))'
+    grid-template-columns: "repeat(3, minmax(240px, 255px))";
   }
 }
 
 @layer base {
   li {
-    @apply 
-    cursor-pointer
-    list-none
+    @apply cursor-pointer
+    list-none;
   }
 }
 
