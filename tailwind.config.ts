@@ -15,6 +15,7 @@ const config: Config = {
       "purple-primary": "#5747EA",
       "purple-heading": "#7078C9",
       "purple-text": "#BBC0FF",
+      "blue-hover": "#33397A",
       white: "#fff",
     },
     fontFamily: {
@@ -22,6 +23,12 @@ const config: Config = {
       "rubik-reg": ["Rubik-reg", "sans-serif"],
       "rubik-med": ["Rubik-med", "sans-serif"],
     },
+      screens: {
+        'sm': '200px',
+        'md': '576px',
+        'lg': '1025px',
+      },
+
   },
   plugins: [],
 };

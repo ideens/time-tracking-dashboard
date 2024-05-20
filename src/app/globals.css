@@ -25,6 +25,14 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+
+  .custom-transition {
+    @apply transition-colors duration-200 ease-in-out
+  }
+
+  .grid-cols-custom-3 {
+    grid-template-columns: 'repeat(3, minmax(240px, 255px))'
+  }
 }
 
 @layer base {

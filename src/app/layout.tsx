@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className='p-0'>{children}</body>
+      <body className='sm:py-12 sm:px-0 lg:p-0 bg-blue-dark'>{children}</body>
     </html>
   );
 }
